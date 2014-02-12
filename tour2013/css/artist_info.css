@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* CAEg
+-------------------------------------------- */
+.logo {
+	float:left;
+}
+
+div#head {
+	width: 900px;
+	padding: 0px;
+}
+
+div#head-right {
+	float: right;
+	width: 430px;
+	padding: 0px;
+	text-align: right;
+	font-size: 9pt;
+}
+
+iframe.twitter-share-button {
+	width: 110px!important;
+}
+
+div#artist_main{
+	height: 900px;
+	//overflow: auto;
+	margin: 0px;
+	padding-bottom: 40px;
+	background: #fff;
+	background-color: rgba(238,238,238,0.5);
+}
+
+span.aritist-name {
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 22pt;
+	font-weight: 700;
+	font-family: 'ÉÅÉCÉäÉI',Meiryo,'ÉqÉâÉMÉmäpÉS Pro W3','Hiragino Kaku Gothic Pro','ÇlÇr ÇoÉSÉVÉbÉN','MS PGothic',sans-serif;
+	text-align: left;
+}
+
+div#artist_main .pankuzu {
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	font-size: 10pt;
+}
+
+/* LEFT SIDE*/
+
+div.pbody_left{
+	float: left;
+	width: 410px;
+	margin-top: 0px;
+	margin-left: 50px;
+}
+
+div.pbody_left .contents_name {
+	padding: 5px 10px;
+	background-color: #333;
+	color: #FFF;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_left .photo{
+	width: 410px;
+	height: 300px;
+	background: #000;
+	text-align: center;
+	vertical-align: middle;
+	layout-grid-line:210px;
+	display:table-cell;
+}
+
+div.pbody_left img {
+	max-width: 350px;
+	max-height: 250px;
+	vertical-align: middle;
+}
+
+div.pbody_left .member{
+	font-size: 9pt;
+	padding: 15px 10px 30px 10px;
+}
+
+
+div.pbody_left .profile{
+	padding: 15px 10px 30px 10px;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+
+ul.sns{
+	padding-top:10px;
+}
+
+ul.sns li{
+	float:left;margin-right:10px;
+}
+
+
+/* RIGHT SIDE*/
+
+div.pbody_right{
+	float: right;
+	width: 410px;
+	margin-top: 0px;
+	margin-right: 50px;
+}
+
+div.pbody_right .contents_name {
+	padding: 5px 10px;
+	margin: 0px;
+	background-color: #333;
+	color: #FFF;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_right .comment {
+	padding: 15px 10px 30px 10px;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+
+div.pbody_right .youtube {
+	padding: 15px 0px 30px 0px;
+	color: #000;
+	font-size: 11pt;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_right .link {
+	padding: 15px 0px 30px 0px;
+	margin: 0px;
+	font-size: 9pt;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_right .twitter {
+	padding: 15px 0px 30px 0px;
+	margin: 0px;
+	font-size: 9pt;
+	font-family: "CI", Meiryo;
+}
+

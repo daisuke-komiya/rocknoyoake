@@ -1,0 +1,76 @@
+/* サイドバー
+-------------------------------------------- */
+
+div#sidebar {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	float: left;
+	width: 285px;
+	-webkit-text-size-adjust: none;
+}
+
+div#sidebar_box {
+	float: left;
+	padding: 10px;
+	background-color: #eeeeee;
+	border-radius: 5px;         /* CSS3 */
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+	border: 1px #cccccc solid;     /* 枠線の装飾 */
+	background-color: #eeeeee;   /* 背景色 */
+}
+
+/* メニュー
+-------------------------------------------- */
+
+div#menu a{
+	display: block;
+	margin-bottom: ;
+}
+
+
+
+/* ツイッター
+-------------------------------------------- */
+div#twitter {
+	width: 263px;
+	height: 378px;
+	margin-top: 15px;
+	background-repeat: no-repeat;
+	background-color: #CCCCCC;
+	border: 1px #BBB solid;     /* 枠線の装飾 */
+}
+
+.twtr-hd { display: ; background-color: #09C; }
+.twtr-ft { display: none; }
+
+/* フェイスブック
+-------------------------------------------- */
+div#facebook {
+	width: 265px;
+	height: 400px;
+	margin-top: 15px;
+	background-repeat: no-repeat;
+	background-color: #CCCCCC;
+}
+
+
+
+/* インタビュー
+-------------------------------------------- */
+
+.prf_ttl {
+	font-size: small;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-bottom: 3px #666 solid;
+}
+
+.prf_text {
+	font-size: small;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #CCC;
+	border-radius: 5px;         /* CSS3 */
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+}

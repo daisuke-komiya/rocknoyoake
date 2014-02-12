@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* CAEg
+-------------------------------------------- */
+
+table.artist th{
+	background-color: #000000;
+}
+
+div.date_bar{
+	background-color: #880066;
+}
+
+.artist_name{
+	color: #FFFFFF;
+	margin-top:10px;
+}
+
+img.artist_photo{
+	margin-bottom: 5px;
+}

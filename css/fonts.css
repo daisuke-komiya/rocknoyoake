@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* フォント
+-------------------------------------------- */
+
+body,
+h1,h2,h3,h4,h5,h6 {
+	font-size: ;
+	line-height: ;
+}
+
+span.news_old {
+	color: #FFFFFF;
+	font-size:10px;
+	font-weight: bold;
+	background-color: #666666;
+	padding: 3px 10px;
+	margin-right: 10px;
+}
+
+span.news_new {
+	color: #FFFFFF;
+	font-size:10px;
+	font-weight: bold;
+	background-color: #F69;
+	padding: 3px 10px;
+	margin-right: 10px;
+}
+
+
+.news_text {
+	margin-bottom: 5px;
+}
+
+th.koumoku {
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+    border-bottom: 1px #999 solid;     /* 枠線の装飾 */
+	background-color: #666666;
+	padding: 10px;
+}
+
+td.text {
+    border-bottom: 1px #999 solid;     /* 枠線の装飾 */
+	background-color: #FFFFFF;
+	padding: 10px 30px;
+}
+
+table.schedule {
+    border-top: 1px #999 solid;     /* 枠線の装飾 */
+    border-right: 1px #999 solid;     /* 枠線の装飾 */
+    border-left: 1px #999 solid;     /* 枠線の装飾 */
+	background-color: #EEEEEE;
+}

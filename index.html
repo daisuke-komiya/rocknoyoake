@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>ロックの夜明け Official Web Site</title>
+<link rel="stylesheet" type="text/css" href="css/import.css" media="screen,print"/>
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<!-- ▼スライダー（INCIDENT 2012用）▼ -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+          function slideSwitch() {
+              var $active = $('#slideshow img.active');
+              if ( $active.length == 0 ) $active = $('#slideshow img:last');
+              var $next =  $active.next().length ? $active.next() : $('#slideshow img:first');
+              $active.addClass('last-active');
+              $next.css({opacity: 0.0})
+                  .addClass('active')
+                  .animate({opacity: 1.0}, 1000, function() {
+                      $active.removeClass('active last-active');
+                });
+          }
+          $(function() {
+              setInterval( "slideSwitch()", 3500 );
+          });
+</script> 
+
+<!-- スライダー▼ -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<script>
+          $(function(){
+               $('#slides').slides({
+                    preload: true,
+                    preloadImage: 'images/loading.gif',
+                    play: 5000,
+                    pause: 2500,
+                    hoverPause: true
+               });
+          });
+</script>
+<link rel="stylesheet" href="css/global.css">
+<!-- スライダー▲ -->
+
+</head>
+
+<body>
+
+	<div id="contents">
+	
+		<div class="social_buttom">
+			<a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="23cc7e2121d7a014fac244d03c41c8920ea18826" data-button="button-6">mixiチェック</a>
+			    <script type="text/javascript" src="http://static.mixi.jp/js/share.js"></script>
+			    
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://rocknoyoake.com/" data-lang="ja" data-count="none">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Frocknoyoake.com%2F&amp;send=false&amp;layout=button_count&amp;width=60&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+		</div>
+		
+		<div id="header">
+			<!--div id="slides">
+			<div class="slides_container">
+			<a href="1204/index.html" target="_blank"><img src="images/keytalk_s.jpg" width="260" height="173" alt="Slide 1"></a>
+			<a href="1204/index.html" target="_blank"><img src="images/sakanamon_s.jpg" width="260" height="173" alt="Slide 2"></a>
+			<a href="1204/index.html" target="_blank"><img src="images/hideyoshi_s.jpg" width="260" height="173" alt="Slide 3"></a>
+			<a href="1204/index.html" target="_blank"><img src="images/kurokinagisa_s.jpg" width="260" height="173" alt="Slide 4"></a>
+			<a href="1204/index.html" target="_blank"><img src="images/endotakayuki_s.jpg" width="260" height="173" alt="Slide 5"></a>
+			<a href="1204/index.html" target="_blank"><img src="images/futamurahidetaka_s.jpg" width="260" height="173" alt="Slide 6"></a>
+			</div>
+			</div-->
+		<!-- end header -->
+		</div>
+		
+		<div id="menu">
+			<a href="index.html"><img src="images/menu_home.png" alt="Home" width="120" height="40" class="linkimg" /></a>
+			<a href="introduction.html"><img src="images/menu_concept.png" width="120" height="40" class="linkimg" alt="Concept" /></a>
+			<a href="profile.html"><img src="images/menu_profile.png" width="120" height="40" class="linkimg" alt="Profile" /></a>
+			<a href="schedule.html"><img src="images/menu_schedule.png" width="120" height="40" class="linkimg" alt="Schedule" /></a>
+			<a href="ticket.html"><img src="images/menu_ticket.png" width="120" height="40" class="linkimg" alt="Ticket" /></a>
+			<a href="map.html"><img src="images/menu_map.png" width="120" height="40" class="linkimg" alt="Map" /></a>
+			<a href="contact.html"><img src="images/menu_contact.png" width="120" height="40" class="linkimg" alt="Contact" /></a>
+			<a href="link.html"><img src="images/menu_link.png" width="120" height="40" class="linkimg" alt="Link" /></a>
+		<!-- end menu -->
+		</div>
+		
+		<div id="container">
+		
+			<div id="sidebar">
+				<!--a href="goods.html"><img src="images/goods_s.jpg" alt="GOODS" width="180" height="180" class="linkimg" /></a-->
+				<a href="http://twitter.com/#!/rocknoyoake" target="_blank">
+				<img src="images/twitter.png" alt="twitter" width="180" height="60" class="linkimg" /></a>
+				<a href="http://www.facebook.com/pages/%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AE%E5%A4%9C%E6%98%8E%E3%81%91/370507479628483" target="_blank">
+				<img src="images/facebook.png" alt="facebook" width="180" height="60" class="linkimg" /></a>
+				<a href="http://mixi.jp/view_community.pl?id=4480967" target="_blank">
+				<img src="images/mixi.png" alt="mixi" width="180" height="60" class="linkimg" /></a>
+				<a href="http://fotologue.jp/rocknoyoake/" target="_blank">
+				<img src="images/fotologue.png" alt="fotologue" width="180" height="60" class="linkimg" /></a>
+				<a href="http://www.flickr.com/photos/rocknoyoake" target="_blank">
+				<img src="images/flickr.png" alt="flickr" width="180" height="60" class="linkimg" /></a>
+				<a href="http://www.ustream.tv/channel/rocknoyoake" target="_blank">
+				<img src="images/ustream.png" alt="ustream" width="180" height="60" class="linkimg" /></a>
+				<a href="http://ameblo.jp/komiya-daisuke/" target="_blank">
+				<img src="images/blog.png" alt="ameba blog" width="180" height="60" class="linkimg" /></a>
+				<a href="http://www.ukproject.com/que/" target="_blank">
+				<img src="images/club_que.png" alt="下北沢club que" width="180" height="60" class="linkimg" /></a>
+			<!-- end sidebar -->
+			</div>
+			
+			<div id="main">
+				<!-- ▼NEXT EVENT▼ -->
+				<img src="images/next_event.png" alt="Next Event" width="150" height="40" /><br />
+				<hr style="margin:0;" />
+				<br/>
+				
+				<div id="next_event">
+					<a href="tour2013/top.html" target="_blank">
+						<img src="tour2013/images/special_site_banner.png" class="linkimg"/>
+					</a>
+					<br/><br/>
+					<!--
+					<div id="next_event_text">
+						■タイトル<br/>
+						<span style="font-weight:bold;">ロックの夜明け presents「INCIDENT 13.04」～黒木渚 1st mini album「黒キ渚」RELEASE TOUR「複合人格」～</span><br/><br/>
+						■日時<br/>
+						2013年4月12日（金）<br/>
+						開場/開演 18:00<br/><br/>
+						■会場<br/>
+						下北沢 CLUB Que<br/><br/>
+						■出演<br/>
+						Any<br/>
+						アンテナ<br/>
+						GOOD ON THE REEL<br/>
+						黒木渚
+					</div>
+					<div id="next_event_flyer">
+						<img src="images/incident1304/flyer.jpg" />
+					</div>
+					<div class="clear"></div>
+					-->
+				</div>
+				
+				<!--
+				<p align="center">
+				<iframe width="590" height="332" src="http://www.youtube.com/embed/MKGHTMy2Fes?rel=0" frameborder="0" allowfullscreen></iframe><br />
+				<strong>movie by 尾崎（<a href="https://twitter.com/ho_ozaki1219" target="_blank">@ho_ozaki1219</a>）</strong><br />
+				<br />
+				<a href="schedule.html#main"><img src="images/1301/1301img.jpg" width="595" height="420" class="linkimg" /></a></p>
+				<br /><br /><br />
+				-->
+				
+				<!-- ▼ニュース▼ -->
+				<img src="images/infomation.png" alt="Infomation" width="150" height="40" /><br />
+				<hr style="margin:0;" />
+				<br />
+				<p class="news_text"><span class="news_new">2013.02.28</span><a href="schedule.html#main">ロックの夜明け presents 「INCIDENT 13.04」 開催</a></p>
+				<p class="news_text"><span class="news_old">2013.01.09</span><a href="http://www.rocknoyoake.com/artist_info/info_kana_boon.html#main">【KANA-BOON】コメント動画公開!!</a></p>
+				<p class="news_text"><span class="news_old">2012.12.28</span><a href="http://www.rocknoyoake.com/artist_info/info_tartetatin.html#main">【タルトタタン】コメント動画公開!!</a></p>
+				<p class="news_text"><span class="news_old">2012.12.28</span><a href="http://www.youtube.com/watch?v=5qSIHg9GxWY" target="_blank">「INCIDENT 13.01」 PV公開!!</a></p>
+				<br /><br /><br />
+			<!-- end main -->
+			</div>
+			
+		<!-- end container -->
+		</div>
+		
+		<div id="footer">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+			    <td width="420px" valign="top">
+			<!-- start .twtr --><div class="">
+			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'profile',
+			  rpp: 30,
+			  interval: 3000,
+			  width: 400,
+			  height: 240,
+			  theme: {
+			    shell: {
+			      background: 'transparent',
+			      color: '#FFFFFF'
+			    },
+			    tweets: {
+			      background: 'transparent',
+			      color: '#FFFFFF',
+			      links: '#5252ff'
+			    }
+			  },
+			  features: {
+			    scrollbar: true,
+			    loop: false,
+			    live: true,
+			    behavior: 'default'
+			  }
+			}).render().setUser('rocknoyoake').start();
+			</script>
+			<!-- end .twtr --></div>
+			</td>
+			<td valign="top">
+			<div class="">
+			<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2F%25E3%2583%25AD%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AE%25E5%25A4%259C%25E6%2598%258E%25E3%2581%2591%2F370507479628483%3Fref%3Dts&amp;width=180&amp;height=290&amp;colorscheme=dark&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:350px;" allowTransparency="true"></iframe>
+			</div>
+			</td>
+			</tr>
+			</table>
+		<!-- end footer -->
+		</div>
+		
+		<p align="center">
+		<a href="index.html">Home</a>　
+		<a href="introduction.html">Concept</a>　
+		<a href="profile.html">Profile</a>　
+		<a href="schedule.html">Schedule</a>　
+		<a href="ticket.html">Ticket</a>　
+		<a href="map.html">Map</a>　
+		<a href="contact.html">Contact</a>　
+		<a href="link">Link</a>
+		<br />
+		<font color="#FFFFFF">Copyright &copy rocknoyoake.com All Rights Reserved.</font></p>
+	<!-- end contents -->
+	</div>
+	
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+	  {lang: 'ja'}
+	</script>
+	
+</body>
+
+</html>

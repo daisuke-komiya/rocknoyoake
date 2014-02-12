@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* リセット
+-------------------------------------------- */
+
+body,
+div,
+ul,ol,li,
+dl,dt,dd,
+h1,h2,h3,h4,h5,h6,
+pre,
+form,fieldset,input,textarea,
+p,blockquote,
+th,td {
+	margin: 0px;
+	padding: 0px;
+}
+
+a img {
+	border: none;
+}
+
+a {
+	text-decoration: underline;
+}
+
+
+
+
+/* リセット
+-------------------------------------------- */
+
+body,
+div,
+ul,ol,li,
+dl,dt,dd,
+h1,h2,h3,h4,h5,h6,
+pre,
+form,fieldset,input,textarea,
+p,blockquote,
+th,td {
+	margin: 0;
+	padding: 0;
+	line-height:1.4;
+
+}
+
+a img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.fl_r{float:right;}
+.fl_l{float:left;}
+
+/* リンク
+-------------------------------------------- */
+
+
+div#menu a{
+	display: block;
+	height: 40px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+a img.linkimg{
+background:none!important;
+}
+ 
+a:hover img.linkimg{
+opacity:0.6;
+filter:alpha(opacity=60);
+-ms-filter: "alpha( opacity=60 )";
+background:none!important;
+}

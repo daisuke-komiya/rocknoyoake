@@ -1,0 +1,203 @@
+/* ƒƒCƒ“
+-------------------------------------------- */
+
+#main {
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "ƒƒCƒŠƒI", Meiryo, Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+	float: left;
+	width: 600px;
+	margin-right: 15px;
+	-webkit-text-size-adjust: none;
+}
+
+#visual {
+	float: right;
+	width: 600px;
+	height: 
+}
+
+#info {
+	float: right;
+	width: 568px;
+	height: 220px;
+	margin-top: 15px;
+	padding: 15px;
+	background-color: #eeeeee;
+	border-radius: 5px;         /* CSS3 */
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+	border: 1px #cccccc solid;     /* ˜gü‚Ì‘•ü */
+	background-color: #eeeeee;   /* ”wŒiF */
+}
+
+.photo_frame {
+	float:left;
+	width: 260px;
+	height: 144px;
+	padding: 5px 0;
+	background-repeat: no-repeat;
+	background-image: url(../img/bg_44.gif);
+}
+
+.text {
+	margin-top: 10px;
+}
+
+.text th {
+	width: 275px;
+	height: 170px;
+}
+
+.text td {
+	width: 295px;
+}
+
+h3.tittle {
+	border-bottom: 1px #999 dotted;
+	margin-bottom: 5px;
+}
+
+h4.tittle {
+	border-bottom: 1px #999 dotted;
+	margin: 5px 0;
+}
+
+/* ƒCƒ“ƒ^ƒrƒ…[
+-------------------------------------------- */
+
+#int_ctr {
+	background-color: #eeeeee;
+	border-radius: 5px;         /* CSS3 */
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+	border: 1px #cccccc solid;     /* ˜gü‚Ì‘•ü */
+	background-color: #eeeeee;   /* ”wŒiF */
+}
+
+#interview {
+	float: right;
+	width: 568px;
+	padding: 15px;
+	background-color: #eeeeee;
+	border-radius: 5px;         /* CSS3 */
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+	border: 1px #cccccc solid;     /* ˜gü‚Ì‘•ü */
+	background-color: #eeeeee;   /* ”wŒiF */
+	margin-bottom: 30px;
+}
+
+.int_ttl {
+}
+
+.int_photo {
+	color:#FFF;
+	background-color: #666;
+	width: 540px;
+	padding: 5px 15px 15px 15px;
+	font-weight: bold;
+	font-size: 22px;
+	border-radius: 5px;         /* CSS3 */
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+}
+
+.mokuji {
+	background-color: #CCC;
+	font-weight: 500;
+	padding: 5px 0;
+	border-radius: 5px;         /* CSS3 */
+	-moz-border-radius: 5px;    /* Firefox */
+	-webkit-border-radius: 5px; /* Safari,Chrome */
+}
+
+.on {
+	color: #F00;
+	font-weight:500;
+}
+
+.off {
+	color: #666;
+}
+
+.int {
+	color: #666;
+}
+
+.wataru {
+	color: #090;
+}
+
+.chanako {
+	color: #F3F;
+}
+
+/* ƒqƒXƒgƒŠ[
+-------------------------------------------- */
+
+.prof {
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "ƒƒCƒŠƒI", Meiryo, Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+}
+
+.hty {
+	border-bottom: 1px #999 dotted;
+	padding: 10px 0;
+}
+
+.hty dt {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #F00;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+.hty dd {
+	padding: 0 30px;
+}
+
+.seireki {
+	color: #EEE;
+	background-color: #666;
+	padding: 3px 10px;
+	font-weight: 500;
+}
+
+/* ƒqƒXƒgƒŠ[
+-------------------------------------------- */
+
+table.review {
+	border-bottom: 1px #999 dotted;
+	padding: 15px 0;
+}
+
+.review th {
+	width: 275px;
+	height: 170px;
+}
+
+.review td {
+	width: 295px;
+}
+
+.new {
+	font-size: 9px;
+	background-color:#F00;
+	color:#FFF;
+	padding:2px 4px;
+	vertical-align: middle;
+}
+
+
+.new_img {
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+

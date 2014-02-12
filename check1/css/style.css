@@ -1,0 +1,280 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #fff;
+	font-family: 'Corben', Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-size: 10px;
+	font-size: 1.0rem;
+}
+
+img.category {
+	margin-bottom: 15px;
+}
+
+
+
+/********** トップページ **********/
+
+div#container {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	border: 1px solid #686868;
+	font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+	line-height: 1.5em;
+}
+
+div#header {
+	width: 600px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img#artist-logo {
+}
+
+
+
+/********** ナビメニュー **********/
+
+div#nav-menu-top {
+	margin-top: 30px;
+}
+
+div#nav-menu a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#nav-menu a:hover {
+	text-decoration: underline;
+}
+
+div#nav-menu a:visited {
+	color: #000;
+}
+
+div#nav-menu-top a.nav-news {
+	margin-right: 20px;
+}
+
+div#nav-menu-top a.nav-schedule {
+	margin-right: 20px;
+}
+
+div#nav-menu-top a.nav-bio {
+}
+
+div#nav-menu-bottom {
+	margin-top: 15px;
+}
+
+div#nav-menu-bottom a.nav-disco {
+	margin-right: 20px;
+}
+
+div#nav-menu-bottom a.nav-movie {
+	margin-right: 20px;
+}
+
+div#nav-menu-bottom a.nav-shop {
+	margin-right: 20px;
+}
+
+
+
+/********** ニュース **********/
+
+img#top-img {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#news {
+	width: 600px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10pt;
+}
+
+div#news span.news-text {
+	font-weight: bold;
+}
+
+div#news a.news-link {
+	color: gray;
+}
+
+
+
+/********** バイオグラフィー **********/
+
+div#profile {
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10pt;
+}
+
+img#artist-photo {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/********** スケジュール **********/
+
+div#schedule {
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/********** ディスコグラフィー **********/
+
+div#discography {
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10pt;
+}
+
+div.information {
+	width: 600px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.info-group {
+	float: left;
+	width: 180px;
+	margin: 0px;
+	margin-right: 20px;
+}
+
+img.jacket-img {
+	width: 180px;
+	height: 180px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+div.info-text {
+	width: 180px;
+	margin-top: 10px;
+	font-size: 10pt;
+	
+}
+
+div#disco-detail {
+	width: 400px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #686868;
+	font-size: 9pt;
+}
+
+div#disco-detail div#detail {
+	width: 340px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#lean_overlay {
+	position: fixed; z-index:100; 
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	display: none;
+}
+
+#div787-1, #div787-2, #div787-3 {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+	display: none;
+	padding: 30px;
+	width: 400px;
+	height: 400px;
+	overflow: scroll;
+ }
+ 
+.modal_close { 
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: block; 
+	width: 14px;
+	height: 14px; 
+	background: url(../img/modal_close.png);
+	z-index: 2;
+}
+
+
+
+/********** ショップ **********/
+
+div#shop {
+	width: 600px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+/********** ムービー **********/
+
+div#movie {
+	width: 600px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+/********** コンタクト **********/
+
+div#contact {
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10pt;
+}
+
+div#mail-send {
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10pt;
+}
+
+
+
+.clear {
+	clear: both;
+}

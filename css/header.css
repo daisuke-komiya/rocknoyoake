@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* ヘッダ
+-------------------------------------------- */
+
+div#header{
+	height: 300px;
+	margin: 10px 0 10px 0;
+	background-repeat: no-repeat;
+	background-image:url(../images/rokuyoa_header.png);	
+}
+
+div#menu{
+	height: 40px;
+	margin-bottom: 10px;
+    border: 1px #ccc solid;     /* 枠線の装飾 */
+}

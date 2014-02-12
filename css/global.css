@@ -1,0 +1,77 @@
+/* スライダー
+-------------------------------------------- */
+/*
+	Slideshow
+*/
+
+#slides {
+	width: 260px;
+	margin-left: 670px;
+	height: 173px;
+	margin-top: 97px;
+	position: absolute;
+	z-index:100;
+	background-color: #FFFFFF;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:260px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:260px;
+	height:173px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin: auto 0;
+	width: 90px;
+}
+
+.pagination li {
+	float: left;
+	margin: 0 0px;
+	list-style: none;
+}
+
+.pagination li a {
+	display: block;
+	width: 12px;
+	height: 0px;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}

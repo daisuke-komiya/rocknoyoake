@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+	<title>ロックの夜明け Official Web Site</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen,print" />
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css" media="all and (max-device-width: 480px)" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.sidr.dark.css">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="icon" href="../images/favicon.ico" type="../image/vnd.microsoft.icon" />
+</head>
+
+<body>
+	
+	<!-- ▼サイドメニューバー▼ -->
+	<script type="text/javascript" src="js/side_menu.js"></script>
+	<!-- ▲サイドメニューバー▲ -->
+	
+	<div id="wrapper">
+		
+		<div id="header">
+			<img src="images/title.png" alt="top_banner" />
+		</div>
+		
+		<div id="main">
+			
+			<iframe frameborder="0" allowtransparency="true" scrolling="auto" src="https://ssl.form-mailer.jp/fms/7f0ec4b5246234" title="HTML Form" width="100%" height="100%">
+				<a href="https://ssl.form-mailer.jp/fms/7f0ec4b5246234" title="Contact">この部分はインラインフレームを使用しています</a>
+			</iframe>
+			
+		</div>
+		
+		<div class="clear"></div>
+		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+	</div>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<!-- Include the Sidr JS -->
+	<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		 $('#simple-menu').sidr();
+		});
+	</script>
+    
+    <script>
+	    $(function(){
+			$('.subMenu').hide();
+			//
+			$('#side-menu .archive').click(function(e){		
+				$('+ul.subMenu',this).slideToggle();
+			});
+		});
+    </script>
+    
+</body>
+
+</html>

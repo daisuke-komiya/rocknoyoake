@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* CAEg
+-------------------------------------------- */
+
+#main div#ticket_plan span {
+	color: #ffffff;
+}
+
+#main div#ticket_plan span.l_code {
+	float:left;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+#main div#ticket_plan span.line_through {
+	text-decoration: line-through;
+}
+
+#main div#ticket_plan span.black {
+	color: #000000;
+}
+
+
+/* 戵XC{bNX */
+
+#main div#ticket_plan {
+	/*background-color: #ff6666;*/
+	background-color: #ffffff;
+	margin: 5px;
+	border: 2px #000000 solid;
+}
+
+#main div#ticket_plan.two_days {
+	background-color: #000000;
+}
+
+
+/* 戵X */
+
+#main div#ticket_plan div.store_box {
+	float: left;
+	margin: 7px;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+}
+
+
+/* `Pbg */
+
+#main div#ticket_plan div.price_box {
+	float: right;
+	margin: 15px 0 0 0;
+	font-size: 12pt;
+	font-family: "Arial";
+	color: #ffffff;
+}
+
+
+/* SOLD OUT */
+
+#main div#ticket_plan span.sold_out {
+	font-size: 10pt;
+	font-family: "Arial";
+	color: #ffffff;
+}

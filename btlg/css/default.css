@@ -1,0 +1,79 @@
+/* リセット
+-------------------------------------------- */
+body,
+div,
+ul,ol,li,
+dl,dt,dd,
+h1,h2,h3,h4,h5,h6,
+pre,
+form,fieldset,input,textarea,
+p,blockquote,
+th,td {
+	margin: 0px;
+	padding: 0px;
+}
+
+a img {
+	border: none;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.linktext {
+	color:#000;
+	text-decoration: none;
+}
+
+a:hover.linktext {
+	color:#000;
+	text-decoration: none;
+}
+
+/* リンク
+-------------------------------------------- */
+a:visited {
+	color: #4E5869;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+a img.linkimg{
+	background:none!important;
+}
+ 
+a:hover img.linkimg{
+opacity:0.6;
+filter:alpha(opacity=60);
+-ms-filter: "alpha( opacity=60 )";
+background:none!important;
+}
+
+input, textarea {
+	border-style: ridge!important;
+	border-color: #CCC!important;
+}
+
+/* アコーディオンメニュー
+-------------------------------------------- */
+.accordion_head {
+	background-color: #CCC;
+	font-weight: 500;
+	padding: 5px 0;
+	border-radius: 15px;         /* CSS3 */
+	-moz-border-radius: 15px;    /* Firefox */
+	-webkit-border-radius: 15px; /* Safari,Chrome */
+	text-decoration: underline;
+	cursor:pointer;
+	font-weight: bold;
+}
+
+.accordion_head:hover {
+	text-decoration: none;
+	cursor:pointer;
+	background-color: #FF0;
+	color:#F00;
+}

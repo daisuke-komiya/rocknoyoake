@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* フッタ
+-------------------------------------------- */
+
+div#footer{
+	width: 960px;
+	height:;
+	margin: 10px 0px 10px 0px;
+	-webkit-text-size-adjust: none;
+	
+}
+
+/* ツイッターウィジェット
+-------------------------------------------- */
+
+
+.twtr {
+}
+
+.twtr-hd {
+	display:;
+}
+
+.twtr-ft {
+	display: none;
+}
+
+/* ソーシャルメディアボタン
+-------------------------------------------- */
+
+
+.social_buttom {
+	display: block;
+	float: right;
+}

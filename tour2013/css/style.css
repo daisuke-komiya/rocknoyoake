@@ -1,0 +1,225 @@
+/***** 共通部分 *****/
+
+body {
+	background-image: url('../images/bg.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+}
+
+#menu {
+	width: 100%;
+	height: 70px;
+	margin: 0px;
+	background-color: #000;
+	top: 0;
+	position: fixed;
+	z-index: 5;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#menu-icon {
+	margin-top: 3px;
+	margin-left: 5px;
+}
+
+.menu-hover a:hover {
+	opacity: 0.7;
+}
+
+#menu-logo {
+	text-align: center;
+	margin: auto;
+}
+
+#menu-logo img {
+	width: 100px;
+}
+
+.archive {
+	cursor: pointer;
+	text-align: left;
+	display: block;
+}
+
+#wrapper {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header img{
+	width: 950px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 15px;
+}
+
+#main {
+	height: 900px;
+	margin: 0px;
+	padding-bottom: 40px;
+	background: #fff;
+	background-color: rgba(238,238,238,0.5);
+}
+
+
+/***** トップページ *****/
+
+#left-column {
+	float: left;
+	width: 440px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#right-column {
+	float: right;
+	width: 440px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+/***** ニュース *****/
+
+#news {
+	width: 440px;
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+#news h3 {
+	margin-top: 2px;
+	padding-left: 5px;
+	color: #fff;
+	background-color: #000;
+}
+
+
+/***** トップ動画 *****/
+
+#youtube-cm h3 {
+	margin-top: 2px;
+	padding-left: 5px;
+	color: #fff;
+	background-color: #000;
+}
+
+
+/***** ツイート *****/
+
+#top-timeline h3 {
+	margin-top: 2px;
+	padding-left: 5px;
+	color: #fff;
+	background-color: #000;
+}
+
+
+/***** 各ツアーページ *****/
+
+#tour-main {
+	height: 120%;
+	margin: 0px;
+	padding-bottom: 40px;
+	background: #fff;
+	background-color: rgba(238,238,238,0.5);
+}
+
+#left-contents {
+	width: 180px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+	font-size: 10pt;
+	font-weight: 400;
+}
+
+#left-contents span {
+	color: #606;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+#right-contents {
+	width: 740px;
+	float: right;
+	margin-top: 7px;
+}
+
+iframe.twitter-share-button {
+	width: 110px!important;
+}
+
+.tweet-button {
+	text-align: right;
+	margin-right: 15px;
+}
+
+.title-bar {
+	width: 701px;
+	height: 40px;
+	margin-left: 12px;
+	padding-left: 10px;
+	color: #fff;
+	font-size: 20pt;
+	font-weight: 800;
+	background-color: #000;
+}
+
+.artist-photo {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 12px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 1;
+}
+
+.artist-photo a img {
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.artist-photo a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=60);
+}
+
+
+/***** チケット *****/
+
+#ticket p {
+	margin-left: 10px;
+}
+
+#ticket span {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.ticket-logo {
+	float: left;
+	width: 160px;
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-right: 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+
+.clear {
+	clear: both;
+}

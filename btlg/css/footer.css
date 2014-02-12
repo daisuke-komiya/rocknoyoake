@@ -1,0 +1,45 @@
+/* ƒtƒbƒ^
+-------------------------------------------- */
+
+
+div#footer {
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "ƒƒCƒŠƒI", Meiryo, Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+	clear:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height:1.4;
+	font-size:0.9em;
+	height: 80px;
+	background-color: #f3ea00;
+	color: #e72819;
+	overflow: hidden;
+}
+
+.footer_box {
+	margin: 0 auto;
+	width: 900px;
+	height: 80px;
+}
+
+/* SNS
+-------------------------------------------- */
+
+#ft_menu img	{
+	border: 0; 
+	vertical-align: bottom; 
+}
+
+#ft_menu, #ft_menu ul {
+	width:900px;
+	margin: 0 auto;
+	padding:0;
+	list-style-type:none;
+} 
+
+#ft_menu li	{
+	float:left;
+	position:relative;
+	margin-top: 20px;
+	margin-right: 15px;
+	background-color: #FFFFFF;
+}

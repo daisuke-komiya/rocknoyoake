@@ -1,0 +1,253 @@
+@charset "shift-jis";
+/* ----------------------------------------------
+	This style definition is common.
+------------------------------------------------- */
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+a {
+	color: #2B5C95;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #2B5C95;
+}
+
+a:focus{
+	outline:none;
+} 
+
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align:right;
+}
+
+.uptxt{
+	line-height:0.8em;
+}
+
+hr {
+	clear:both;
+	height: 1px;
+	border: none;
+	border-top: 1px #CCCCCC dotted;
+	margin: 10px 0;
+}
+
+.small{
+	font-size: 66%;
+}
+
+.small02{
+	font-size: 85%;
+}
+
+hr {
+	border:none;
+	background-image: url(../img/dot.gif);
+	background-repeat: repeat-x;
+}
+
+.mb0 { margin-bottom:0px !important;}
+.mb5 { margin-bottom:5px !important;}
+.mb10 { margin-bottom:10px !important;}
+.mb15 { margin-bottom:15px !important;}
+.mb20 { margin-bottom:20px !important;}
+.mb30 { margin-bottom:30px !important;}
+.mb40 { margin-bottom:40px !important;}
+.mb50 { margin-bottom:50px !important;}
+
+.mt0 { margin-top:0px !important;}
+.mt05 { margin-top:5px !important;}
+.mt10 { margin-top:10px !important;}
+.mt15 { margin-top:15px !important;}
+.mt20 { margin-top:20px !important;}
+.mt30 { margin-top:30px !important;}
+.mt40 { margin-top:40px !important;}
+.mt50 { margin-top:50px !important;}
+
+.mr0 { margin-right:0px !important;}
+.mr10 { margin-right:10px !important;}
+.mr15 { margin-right:15px !important;}
+.mr20 { margin-right:20px !important;}
+.mr30 { margin-right:30px !important;}
+.mr40 { margin-right:40px !important;}
+.mr50 { margin-right:50px !important;}
+
+.ml0 { margin-left:0px !important;}
+.ml10 { margin-left:10px !important;}
+.ml15 { margin-left:15px !important;}
+.ml20 { margin-left:20px !important;}
+.ml30 { margin-left:30px !important;}
+.ml40 { margin-left:40px !important;}
+.ml50 { margin-left:50px !important;}
+
+.pb0 { padding-bottom:0px !important;}
+.pb10 { padding-bottom:10px !important;}
+.pb20 { padding-bottom:20px !important;}
+.pb30 { padding-bottom:30px !important;}
+.pb40 { padding-bottom:40px !important;}
+.pb50 { padding-bottom:50px !important;}
+
+.pt0 { padding-top:0px !important;}
+.pt10 { padding-top:10px !important;}
+.pt20 { padding-top:20px !important;}
+.pt30 { padding-top:30px !important;}
+.pt40 { padding-top:40px !important;}
+.pt50 { padding-top:50px !important;}
+
+.pr0 { padding-right:0px !important;}
+.pr10 { padding-right:10px !important;}
+.pr20 { padding-right:20px !important;}
+.pr30 { padding-right:30px !important;}
+.pr40 { padding-right:40px !important;}
+.pr50 { padding-right:50px !important;}
+
+.pl0 { padding-left:0px !important;}
+.pl10 { padding-left:10px !important;}
+.pl20 { padding-left:20px !important;}
+.pl30 { padding-left:30px !important;}
+.pl40 { padding-left:40px !important;}
+.pl50 { padding-left:50px !important;}
+
+.boder_all{
+	border:1px solid #cccccc!important;
+}
+.boder_t{
+	border-top:1px solid #cccccc!important;
+}
+.boder_r{
+	border-right:1px solid #cccccc!important;
+}
+.boder_b{
+	border-bottom:1px solid #cccccc!important;
+}
+.boder_l{
+	border-left:1px solid #cccccc!important;
+}
+
+
+.fl_l{
+	float:left;
+}
+.fl_r{
+	float:right;
+}
+
+
+p.cap {
+	font-size: 10px !important;
+	line-height: 140%;
+}
+
+*:first-child+html p.cap {
+	font-size: 70% !important;
+	line-height: 140%;
+	padding-top:5px;
+}
+
+*html p.cap {
+	font-size: 70% !important;
+	line-height: 140%;
+	padding-top:5px;
+}
+
+
+/* ------------- num ------------- */
+.num {
+	margin-right:5px;
+	padding:0 8px;
+	background-color:#1e90bd;
+	border:1px solid #4ab1da;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: outside;
+	padding-left: 20px;
+	line-height: 150%;
+}
+
+/* ------------- pager ------------- */
+.pager {
+	margin-top:40px;
+	padding: 10px 0;
+	width:691px;
+	border: 1px #008bd0 solid;
+    zoom: 100%;
+}
+
+.pager:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.pager img{
+	margin:0 0 -1px 0;
+	border: 1px solid #FFFFFF;
+}
+
+.pager .pageBack {
+	float:left;
+	margin-left:10px;
+	width:320px;
+	font-weight: bold;
+}
+
+
+.pager .pageNext {
+	float:right;
+	margin-right:10px;
+	width:320px;
+	text-align:right;
+	font-weight: bold;
+}
+
+
+
+/* ------------- note ------------- */                      
+
+dl.note{
+
+}
+
+.note dt {
+  position: relative;
+}
+.note dt span {
+	position: absolute;
+	left: -3px;
+}
+.note dd {
+  padding-left: 1em;
+}
+
+
+/*                                          clear
+------------------------------------------------- */
+
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   height: 0;
+   visibility: hidden;
+}
+.clearfix { display: inline-block; }
+
+
+/* exlude MacIE5 \*/
+* html .clearfix { height: 1% }
+.clearfix {display:block;}
+/* end MacIE5 */

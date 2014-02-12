@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* レイアウト
+-------------------------------------------- */
+
+body{
+	background-color: #000;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	background-attachment: scroll;
+	font-family:Arial, sans-serif;
+	font-size:0.9em;
+	-webkit-text-size-adjust: none;
+}
+
+
+div#contents{
+	width: 962px;
+	height: 100%;
+	margin: 0px auto;
+	
+}
+
+.bpx {
+	margin: 0;
+    border: 2px #999 solid;     /* 枠線の装飾 */
+}
+
+#bds {
+    border: 1px #999 dashed;     /* 枠線の装飾 */
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.p30 {
+	padding: 30px;
+}
+
+.p30_bd {
+	padding: 30px;
+	border-radius: 5px;         /* CSS3 */
+    -moz-border-radius: 5px;    /* Firefox */
+    -webkit-border-radius: 5px; /* Safari,Chrome */
+    border: 1px #999 solid;     /* 枠線の装飾 */
+}
+
+.pl30 {
+	padding-left: 30px;
+}
+
+.pr30 {
+	padding-right: 30px;
+}
+
+.mr30 {
+	margin-right: 30px;
+}
+
+.line_01 {
+	height: 1px;
+	background-image:url(../images/line_01.jpg);
+}

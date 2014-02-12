@@ -1,0 +1,40 @@
+/* ƒwƒbƒ_
+-------------------------------------------- */
+div#header {
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "ƒƒCƒŠƒI", Meiryo, Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #f3ea00;
+	overflow:hidden;
+}
+
+/* SNS
+-------------------------------------------- */
+div#sns {
+	float:right;
+}
+
+
+
+/* ƒƒjƒ…[
+-------------------------------------------- */
+*#menu img	{
+	border: 0; 
+	vertical-align: bottom; 
+}
+
+#menu, #menu ul {
+	width:900px;
+	margin: 0 auto;
+	top:0;
+	padding:0;
+	list-style-type:none;
+} 
+
+#menu li	{
+	float:left;
+	position:relative;
+	background-color: #FFFFFF;
+}

@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* CAEg
+-------------------------------------------- */
+.logo {
+	float:left;
+}
+
+div#pankuzu {
+	float:right;
+}
+
+div#artist_info_container{
+	width: 650px;
+}
+
+/* LEFT SIDE*/
+
+div.pbody_left{
+	float: left;
+	width: 315px;
+}
+
+div.pbody_left .contents_name {
+	padding: 5px 10px;
+	background-color: #333;
+	color: #FFF;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_left .photo{
+	width: 315px;
+	height: 210px;
+	background: #000;
+	text-align: center;
+	vertical-align: middle;
+	layout-grid-line:210px;
+	display:table-cell;
+}
+
+div.pbody_left img.artist_photo{
+	vertical-align: middle;
+}
+
+div.pbody_left .member{
+	font-size: 9pt;
+	padding: 15px 10px 30px 10px;
+}
+
+
+div.pbody_left .profile{
+	padding: 15px 10px 30px 10px;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+
+ul.sns{
+	padding-top:10px;
+}
+
+ul.sns li{
+	float:left;margin-right:10px;
+}
+
+
+/* RIGHT SIDE*/
+
+div.pbody_right{
+	float:right;
+	width:300px;
+	padding-bottom:30px;
+}
+
+div.pbody_right .contents_name {
+	padding: 5px 10px;
+	margin: 0px;
+	background-color: #333;
+	color: #FFF;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_right .comment {
+	padding: 15px 10px 30px 10px;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+
+div.pbody_right .youtube {
+	padding: 15px 10px 30px 10px;
+	color: #000;
+	font-size: 9pt;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_right .link {
+	padding: 15px 10px 30px 10px;
+	margin: 0px;
+	font-size: 9pt;
+	font-family: "CI", Meiryo;
+}
+
+div.pbody_right .twitter {
+	padding: 15px 10px 30px 10px;
+	margin: 0px;
+	font-size: 9pt;
+	font-family: "CI", Meiryo;
+}
+

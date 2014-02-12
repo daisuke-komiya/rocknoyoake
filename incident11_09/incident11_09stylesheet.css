@@ -1,0 +1,18 @@
+body{
+	font-size: 12px;
+	background: #963;
+	background-image: url(images/paper-b4.png);
+	margin: 0px;
+	padding: 0px;
+}
+
+div#main{
+	width: 1126px;
+	height: 3200px;
+	margin: 0px auto;
+}
+
+img{
+	border-width: 0px;
+}
+

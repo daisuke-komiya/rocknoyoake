@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+	<title>ロックの夜明け Official Web Site</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen,print" />
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css" media="all and (max-device-width: 480px)" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.sidr.dark.css">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="icon" href="../images/favicon.ico" type="../image/vnd.microsoft.icon" />
+</head>
+
+<body>
+	
+	<!-- ▼サイドメニューバー▼ -->
+	<script type="text/javascript" src="js/side_menu.js"></script>
+	<!-- ▲サイドメニューバー▲ -->
+	
+	<div id="wrapper">
+		
+		<div id="header">
+			<img src="images/title.png" alt="top_banner" />
+		</div>
+		
+		<div id="main">
+			
+			<div id="left-column">
+			
+				<div id="news">
+					<h3>NEWS & INFO</h3>
+					<a class="twitter-timeline" width="440" height="200" href="https://twitter.com/rocknoyoake" data-widget-id="326285215649632256">@rocknoyoake からのツイート</a>
+						<script>
+							!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+						</script>
+					<!--
+					<h3>NEWS</h3>
+					<div id="news-inner">
+						<div class="news-text"><span class="news-date-new">2013.04.29</span><a href="">ツアー出演者 第一弾発表</a></div>
+					</div>
+					-->
+				</div>
+				
+				<br/><br/><br/><br/>
+				
+				<div id="youtube-cm">
+					<h3>MOVIE</h3>
+					<!--
+					<div style="width: 440px; height: 270px; background-color: black; color: white; text-align: center;"><br/><br/><br/><br/><br/>comming soon…</div>
+					-->
+					<iframe width="440" height="270" src="http://www.youtube.com/embed/RAZPDgFiw_Q" frameborder="0" allowfullscreen></iframe>
+				</div>
+				
+			</div>
+			
+			<div id="right-column">
+				
+				<div id="top-timeline">
+					<h3>ロックの夜明け関連ツイート</h3>
+					<a class="twitter-timeline" width="440" height="608" href="https://twitter.com/search?q=%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AE%E5%A4%9C%E6%98%8E%E3%81%91+OR+%E3%83%AD%E3%82%AF%E3%83%A8%E3%82%A2+OR+%E3%82%8D%E3%81%8F%E3%82%88%E3%81%82+-%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AE%E5%A4%9C%E6%98%8E%E3%81%91" data-widget-id="326463262734548992">ロックの夜明け OR ロクヨア OR ろくよあ -ニューロックの夜明け に関するツイート</a>
+					<script>
+						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+					</script>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+	</div>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<!-- Include the Sidr JS -->
+	<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		 $('#simple-menu').sidr();
+		});
+	</script>
+    
+    <script>
+	    $(function(){
+			$('.subMenu').hide();
+			//
+			$('#side-menu .archive').click(function(e){		
+				$('+ul.subMenu',this).slideToggle();
+			});
+		});
+    </script>
+    
+</body>
+
+</html>

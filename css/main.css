@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* メイン
+-------------------------------------------- */
+
+div#main{
+	width: 650px;
+	background-color: #FFF;
+	position: relative;
+	padding: 30px 60px;
+	-webkit-text-size-adjust: none;
+}
+
+.accordion_head {cursor:pointer;}
+
+td.table0{
+	width: 220px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+td.table1{
+	width: 220px;
+	padding-left: 0px;
+}
+
+table.table2{
+	border-collapse: collapse;
+	border: solid;
+}
+
+td.table2{
+	border: solid;
+}
+
+img.komiya {
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+div.incident2012{
+	position: relative;
+	margin-bottom: 10px;
+	width: 650px;
+	height: 500px;
+}
+
+#slideshow{
+	position: absolute;
+	top: 415px;
+	left: 65px;
+}
+
+#slideshow img {
+	width: 597px;
+	height: 397px;
+	vertical-align: middle;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow img.active {
+    z-index:10;
+}
+#slideshow img.last-active {
+    z-index:9;
+}
+
+#next_event {
+	width: 650px;
+}
+
+#next_event_text {
+	float: left;
+	width: 350px;
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+	font-size: 12pt;
+}
+
+#next_event_flyer {
+	float: right;
+	width: 300px;
+}
+
+#next_event_flyer img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* CSS3 HoverAnimation
+-------------------------- */
+@-webkit-keyframes hoverSpread {
+    0% {-webkit-transform:scale(1); opacity: 0.7;}
+    100% {-webkit-transform:scale(1.2); opacity: 1;}
+}
+
+#next_event_flyer img:hover {
+	-webkit-animation-name: hoverSpread;
+	-webkit-animation-duration: 0.7s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-transform: scale(1.2);
+	-webkit-box-shadow: 0 0 10px #000;
+	opacity: 1;
+	z-index: 20;
+}
+
+.clear {
+	clear: both; /* floatの解除 */
+}

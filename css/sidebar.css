@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* サイドバー
+-------------------------------------------- */
+
+div#sidebar{
+	width: 180px;
+	position: absolute;
+	margin-left: 780px;
+	padding:  0 0px 0 0px;
+}
+
+div#sidebar a{
+	display: block;
+	margin-bottom: 10px;
+}
+
